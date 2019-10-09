@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Class"
+            android:icon="@drawable/ic_class_black_24dp"
+            android:title="Class" />
+        <item
+            android:id="@+id/work"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="Work" />
+        <item
+            android:id="@+id/stickynotes"
+            android:icon="@drawable/ic_note_black_24dp"
+            android:title="Sticky Notes" />
+
+        <item
+            android:id="@+id/freetime"
+            android:icon="@drawable/ic_hourglass_empty_black_24dp"
+            android:title="Free Time" />
+        <item
+            android:id="@+id/books"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Books" />
+        <item
+            android:id="@+id/workout"
+            android:icon="@drawable/ic_directions_run_black_24dp"
+            android:title="Workout" />
+        <item
+            android:id="@+id/creative"
+            android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+            android:title="Creativity" />
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/expense"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Expense" />
+        <item
+            android:id="@+id/Calender"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Calender" />
+        <item
+            android:id="@+id/reminder"
+            android:icon="@drawable/ic_add_alert_black_24dp"
+            android:title="Reminder" />
+        <item
+            android:id="@+id/emotions"
+            android:icon="@drawable/ic_insert_emoticon_black_24dp"
+            android:title="Emotions" />
+        <item
+            android:id="@+id/habbit"
+            android:icon="@drawable/ic_track_changes_black_24dp"
+            android:title="Habbit Tracker" />
+        <item
+            android:id="@+id/study"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Study" />
+        <item
+            android:id="@+id/project"
+            android:icon="@drawable/ic_settings_input_svideo_black_24dp"
+            android:title="Project" />
+        <item
+            android:id="@+id/dailywork"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Daily Work" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

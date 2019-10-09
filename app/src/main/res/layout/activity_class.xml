@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/parentLayout"
+    tools:context=".Class">
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="+Add Class"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        />
+<TableLayout
+    android:id="@+id/table"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"
+    android:stretchColumns="0,1,2,3,4"
+    android:visibility="visible"
+
+     >
+
+    <TableRow
+        android:background="@android:color/holo_green_light">
+        <TextView
+            android:text="Course"
+            android:textSize="25sp"
+            android:padding="3dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"
+            android:layout_margin="2dp"
+             />
+
+        <TextView
+            android:text="Day"
+            android:textSize="25sp"
+            android:padding="3dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:text="Time"
+            android:textSize="25sp"
+            android:padding="3dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:text="Room"
+            android:textSize="25sp"
+            android:padding="3dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"
+            android:layout_margin="2dp"/>
+        <TextView
+            android:text="Faculty"
+            android:textSize="25sp"
+            android:padding="3dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"
+            android:layout_margin="2dp"/>
+
+    </TableRow>
+
+
+</TableLayout>
+</LinearLayout>
